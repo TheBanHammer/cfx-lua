@@ -1,16 +1,16 @@
 {
-  "name": "vscode-lua",
-  "displayName": "vscode-lua",
-  "description": "Intellisense and Linting for Lua",
-  "version": "0.12.4",
-  "publisher": "trixnz",
-  "homepage": "https://github.com/trixnz/vscode-lua#readme",
+  "name": "cfx-lua",
+  "displayName": "cfx-lua",
+  "description": "Intellisense and Linting for Lua (with support for CFX variants)",
+  "version": "0.1.0",
+  "publisher": "thebanhammer",
+  "homepage": "https://github.com/banhammer/cfx-lua#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trixnz/vscode-lua"
+    "url": "https://github.com/banhammer/cfx-lua"
   },
   "bugs": {
-    "url": "https://github.com/trixnz/vscode-lua/issues"
+    "url": "https://github.com/banhammer/cfx-lua/issues"
   },
   "license": "MIT",
   "icon": "images/icon.png",
@@ -150,7 +150,6 @@
   "scripts": {
     "vscode:prepublish": "tsc -p ./",
     "compile": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install",
     "package": "vsce package",
     "travis-deploy": "vsce publish -p $VS_TOKEN"
   },
@@ -166,7 +165,7 @@
     "tslint": "^5.12.0",
     "typescript": "^3.2.2",
     "vsce": "^1.54.0",
-    "vscode": "^1.1.26"
+    "vscode": "^1.1.37"
   },
   "dependencies": {
     "vscode-languageclient": "^5.2.1"
